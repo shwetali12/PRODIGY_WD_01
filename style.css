@@ -1,0 +1,56 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: palevioletred;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav{
+    color: black;
+    font-size: 40px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.nav:hover{
+    background-color: rgb(209, 225, 94);
+}
+
+
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+
+
+}
+
+#section1{
+    background-color: aqua;
+}
+
+#section3{
+    background-color: rgb(101, 154, 31);
+}
+
+#section4{
+    background-color: rgb(207, 113, 26);
+}
+
+.bgcolor{
+
+    background-color: rgb(9, 59, 103);
+    color: black;
+    border-bottom: solid;
+    font-style: italic;
+}
